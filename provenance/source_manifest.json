@@ -1,0 +1,114 @@
+[
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/targets/EOMES_48h_all_genes.tsv",
+    "release_path": "inputs/chip48/all_gene_scores.tsv.gz",
+    "source_sha256": "4f2d77421bae0fd8c69bf213e6326bd0776b9e23ece8096670addcbdde6e16e1",
+    "sha256": "d2117b3398c01af366f3ad055157d30e2d6cc909d7944ab0f2afefb3092935e6",
+    "bytes": 1514601,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/targets/EOMES_48h_peak_gene_evidence.tsv.gz",
+    "release_path": "inputs/chip48/peak_gene_evidence.tsv.gz",
+    "source_sha256": "57f7043f2624921ce9a898200f13021af14ae1ca34cd75ca6c2f6f1ce8f431ec",
+    "sha256": "57f7043f2624921ce9a898200f13021af14ae1ca34cd75ca6c2f6f1ce8f431ec",
+    "bytes": 4929910,
+    "storage": "unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/peaks/48h/final.narrowPeak",
+    "release_path": "inputs/chip48/final.narrowPeak.gz",
+    "source_sha256": "f03a2f7d68e83bcf8a95fcca6fa3bf9ed7504de3ba7b94f66c268e4a56a6bfff",
+    "sha256": "0cbfff79e18fb1cdc92087632bc179d4e23adc98dc04d4beec9487e9184eecc7",
+    "bytes": 1087936,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/peaks/48h/summary.json",
+    "release_path": "inputs/chip48/peak_summary.json",
+    "source_sha256": "f7bf5951d565e5dabeebd24bcf5893797d2eb76cbe7d3a45efad4595cdbd8923",
+    "sha256": "f7bf5951d565e5dabeebd24bcf5893797d2eb76cbe7d3a45efad4595cdbd8923",
+    "bytes": 245,
+    "storage": "unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/validation_de/EOMES_48h_top1500_symbols.tsv",
+    "release_path": "inputs/chip48/top1500_symbols.tsv",
+    "source_sha256": "445eda024d9f49e3cb7c216b8f2ece1648d75ae6e4a7fbc8132a7d0720fa2633",
+    "sha256": "445eda024d9f49e3cb7c216b8f2ece1648d75ae6e4a7fbc8132a7d0720fa2633",
+    "bytes": 40242,
+    "storage": "unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/Google Drive/My Drive/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/EOMES_DE_JAX.tsv",
+    "release_path": "inputs/de/whole_gene_ko.tsv.gz",
+    "source_sha256": "10275f4f58d66287de08ef8eac1c2842759d58936931aaa6c212ad001e4362c7",
+    "sha256": "4fb043aaeac4de5c00d31939aa980189d404267ba980ea2252eb520f125ec6a8",
+    "bytes": 2288018,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/Google Drive/My Drive/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/EOMES_DE_MSK.tsv",
+    "release_path": "inputs/de/knock_in_ko.tsv.gz",
+    "source_sha256": "c092c5bbf51d968777818a65906a2e35b8e8b8953d790ff0f30db008d8c70e6b",
+    "sha256": "a8ab2bace289ba1c6bcc59a0fe181c4e51ca465bae5c71025b5b613ce9183a9a",
+    "bytes": 2272731,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/Google Drive/My Drive/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/EOMES_DE_NW.tsv",
+    "release_path": "inputs/de/degron_matched.tsv.gz",
+    "source_sha256": "0456890a9e5a89733e0b9e99cad0d879e86ad5ff7ac98ddc665c43a9e686bffd",
+    "sha256": "60e0fe1c1067eac3e6760837e7e4bc24c51fc652224919e42aa7e6ecee5be47a",
+    "bytes": 2357374,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/Google Drive/My Drive/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/EOMES_DE_NW_parent.tsv",
+    "release_path": "inputs/de/degron_parental.tsv.gz",
+    "source_sha256": "408551a53b119b5966d2f6ad79cd665ad158da91b0834a1001def3e595d9c43e",
+    "sha256": "dfd6de1332cfa1ab9775bca995a93ca815b5fced858e88f055173f67933af005",
+    "bytes": 2301960,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/Google Drive/My Drive/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/EOMES_DE_UCSF.tsv",
+    "release_path": "inputs/de/crispri.tsv.gz",
+    "source_sha256": "2ded32ddfe18265c75e5dfdfafadf8f98afcdb5eb8dc479f693fe9d8a6e04f7e",
+    "sha256": "1f33190974a685b041ddd3356c62dac50d39d806e69e4a51c1331e4262625f1c",
+    "bytes": 2060722,
+    "storage": "gzip of unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/exploration/cell_fate_literature_first/inputs/signatures_top50.gmt",
+    "release_path": "inputs/reference/cell_type_signatures.gmt",
+    "source_sha256": "186b65587f848c56b951d6cbd08020a14d7fefe910d03d3128c11d968eb44cf9",
+    "sha256": "186b65587f848c56b951d6cbd08020a14d7fefe910d03d3128c11d968eb44cf9",
+    "bytes": 75590,
+    "storage": "unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/exploration/cell_fate_literature_first/tables/signature_sources.tsv",
+    "release_path": "inputs/reference/signature_sources.tsv",
+    "source_sha256": "b609b32c28a966ef136d9baae8eabc9126dca621dec4de713b3fa16b55d4c05a",
+    "sha256": "b609b32c28a966ef136d9baae8eabc9126dca621dec4de713b3fa16b55d4c05a",
+    "bytes": 17992,
+    "storage": "unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/exploration/cell_fate_literature_first/reference/download_sources.json",
+    "release_path": "provenance/reference_download_sources.json",
+    "source_sha256": "0d1ec358d12fbfb6a76c905dd6c8cc75ec889310c1627faf80d17b697c3030f5",
+    "sha256": "0d1ec358d12fbfb6a76c905dd6c8cc75ec889310c1627faf80d17b697c3030f5",
+    "bytes": 833,
+    "storage": "unchanged source bytes"
+  },
+  {
+    "source": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/reference/chea3_remap/ChEA3_ReMap_EOMES.genes.txt",
+    "release_path": "inputs/sensitivity/ReMap_EOMES_1446.txt",
+    "source_sha256": "ef68483f314a157f3aba8cd06f214c9a665afdbacf98677acea4cefe8a2c951f",
+    "sha256": "ef68483f314a157f3aba8cd06f214c9a665afdbacf98677acea4cefe8a2c951f",
+    "bytes": 10920,
+    "storage": "unchanged source bytes"
+  }
+]

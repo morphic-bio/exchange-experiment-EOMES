@@ -1,0 +1,74 @@
+{
+  "selected_control": {
+    "gsm": "GSM3381961",
+    "srr": "SRR7814534",
+    "status": "external input selected in completed control comparison; not experimentally matched"
+  },
+  "chip_accessions": [
+    "GSM6585561 / SRR21586161",
+    "GSM6585562 / SRR21586115"
+  ],
+  "genome": "GRCh38",
+  "gene_annotation": "GENCODE v44 basic",
+  "extension_bp": 200,
+  "relaxed_peak_p": 0.001,
+  "global_IDR_max": 0.05,
+  "pooled_peak_q_max": 0.05,
+  "gene_window_bp": 50000,
+  "scoring": "Sum over linked final peak summits: fold_enrichment * (1 - abs(summit-TSS)/50000); sum is not a mean. Repeated gene symbols use maximum locus score.",
+  "selection_notes": "48h is the user-selected primary timepoint after exploratory comparisons; superior agreement is not asserted for every metric or contrast. No target list is reselected using the release DE results.",
+  "stage_boundary": "Release starts from final peaks, peak-gene links, all-gene scores and the retained unique-symbol ranking. BAM/FASTQ files stay in their original locations and are not required to run this release.",
+  "historical_versions": {
+    "macs2": "macs2 2.2.9.1",
+    "samtools": "samtools 1.24",
+    "bedtools": "bedtools v2.31.1",
+    "idr": "IDR 2.0.4.2",
+    "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:37:53) [Clang 19.1.7 ]"
+  },
+  "reference_gtf_sha256": "3e52f82c63f8fd860bf632ccde10441c05751f4c342ad08c0a98e9e2700171a5",
+  "blacklist_sha256": "31c69342df43bbc19dd8ef2886611a8150cb53e90f341de14d30e742c9251737",
+  "upstream_bam_metadata": [
+    {
+      "sample": "EOMES_DE48h_rep1",
+      "gsm": "GSM6585561",
+      "role": "chip",
+      "timepoint": "48h",
+      "layout": "PE",
+      "bam": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes_v0_old_ref/02_bam/EOMES_DE48h_rep1.final.bam",
+      "bytes": 5854977213,
+      "mtime_ns": 1788847954329721566,
+      "filtered_alignment_records": 134090790,
+      "macs_tags": 67045403,
+      "index_sha256": "18a4fdec2c7902523c2baf038118dbb27d776b57253a5b4942a0935ce8f07508",
+      "flagstat_sha256": "dc121f0c43bc6f60986083c2c56782b418fdc7903fe54faef790bf3b4ff9c211"
+    },
+    {
+      "sample": "EOMES_DE48h_rep2",
+      "gsm": "GSM6585562",
+      "role": "chip",
+      "timepoint": "48h",
+      "layout": "PE",
+      "bam": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes_v0_old_ref/02_bam/EOMES_DE48h_rep2.final.bam",
+      "bytes": 6663998983,
+      "mtime_ns": 1788855902385693293,
+      "filtered_alignment_records": 155327382,
+      "macs_tags": 77663671,
+      "index_sha256": "b689d4d2bcbbc8ff1f5f6667d04dee81b1693815b3dfaa7d75d27b4fd88c722c",
+      "flagstat_sha256": "c99b08131c29d3048f488c4d121f4687e16a88961ccd43317cc6089c9238004c"
+    },
+    {
+      "sample": "Input_GSM3381961",
+      "gsm": "GSM3381961",
+      "role": "input",
+      "timepoint": "both",
+      "layout": "SE",
+      "bam": "/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/eomes_input_comparison_2026-09-15/bam/SRR7814534.final.bam",
+      "bytes": 663085353,
+      "mtime_ns": 1789534905300434374,
+      "filtered_alignment_records": 14739413,
+      "macs_tags": 14739413,
+      "index_sha256": "7e91e5243f1fbe2b9f16f81836a48a247df08fea2a32ea038761abc54e181a3a",
+      "flagstat_sha256": "c219197488b9392e53d8f46e7aed1d2da73ee957552a5cb2379157a18067407b"
+    }
+  ]
+}

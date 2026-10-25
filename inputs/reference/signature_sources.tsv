@@ -1,0 +1,97 @@
+signature	label	reference	source_table	published_genes	primary_genes	url
+TYSER_PS	Primitive streak	Tyser2021	1	797	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_EM	Emergent mesoderm	Tyser2021	1	729	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_AM	Advanced mesoderm	Tyser2021	1	744	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Endo	Endoderm	Tyser2021	1	1576	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Epi	Epiblast	Tyser2021	1	3361	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_HEP	Hemato-endothelial progenitors	Tyser2021	1	1316	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_NM	Nascent mesoderm	Tyser2021	1	925	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_ExM	Extraembryonic mesoderm	Tyser2021	1	992	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Ery	Erythroblasts	Tyser2021	1	1299	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_EAE	Ectoderm amniotic embryonic	Tyser2021	1	700	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_AXM	Axial mesoderm	Tyser2021	1	875	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Amnion	Amnion	Tyser2021	8	50	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_NNE	Non-neural ectoderm	Tyser2021	8	50	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_DE2	Definitive endoderm 2	Tyser2021	11	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_DE1	Definitive endoderm 1	Tyser2021	11	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Hypoblast	Hypoblast	Tyser2021	11	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_YS_Endoderm	Yolk-sac endoderm	Tyser2021	11	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Erythro_Myeloid_Progenitors	Erythro-Myeloid Progenitors	Tyser2021	13	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Endothelium	Endothelium	Tyser2021	13	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Myeloid_Progenitors	Myeloid Progenitors	Tyser2021	13	98	50	https://doi.org/10.1038/s41586-021-04158-y
+TYSER_Megakaryocyte_Erythroid_progenitors	Megakaryocyte-Erythroid progenitors	Tyser2021	13	98	50	https://doi.org/10.1038/s41586-021-04158-y
+DESCARTES_MAIN_FETAL_ACINAR_CELLS	Acinar cells	Cao2020_MSigDB2025.1	75 main fetal cell types	60	60	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ACINAR_CELLS
+DESCARTES_MAIN_FETAL_ADRENOCORTICAL_CELLS	Adrenocortical cells	Cao2020_MSigDB2025.1	75 main fetal cell types	89	89	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ADRENOCORTICAL_CELLS
+DESCARTES_MAIN_FETAL_AFP_ALB_POSITIVE_CELLS	Afp alb positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	130	130	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_AFP_ALB_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_AMACRINE_CELLS	Amacrine cells	Cao2020_MSigDB2025.1	75 main fetal cell types	25	25	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_AMACRINE_CELLS
+DESCARTES_MAIN_FETAL_ANTIGEN_PRESENTING_CELLS	Antigen presenting cells	Cao2020_MSigDB2025.1	75 main fetal cell types	162	162	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ANTIGEN_PRESENTING_CELLS
+DESCARTES_MAIN_FETAL_ASTROCYTES	Astrocytes	Cao2020_MSigDB2025.1	75 main fetal cell types	51	51	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ASTROCYTES
+DESCARTES_MAIN_FETAL_BIPOLAR_CELLS	Bipolar cells	Cao2020_MSigDB2025.1	75 main fetal cell types	92	92	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_BIPOLAR_CELLS
+DESCARTES_MAIN_FETAL_BRONCHIOLAR_AND_ALVEOLAR_EPITHELIAL_CELLS	Bronchiolar and alveolar epithelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	46	46	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_BRONCHIOLAR_AND_ALVEOLAR_EPITHELIAL_CELLS
+DESCARTES_MAIN_FETAL_CARDIOMYOCYTES	Cardiomyocytes	Cao2020_MSigDB2025.1	75 main fetal cell types	44	44	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CARDIOMYOCYTES
+DESCARTES_MAIN_FETAL_CCL19_CCL21_POSITIVE_CELLS	Ccl19 ccl21 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	279	279	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CCL19_CCL21_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_CHROMAFFIN_CELLS	Chromaffin cells	Cao2020_MSigDB2025.1	75 main fetal cell types	25	25	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CHROMAFFIN_CELLS
+DESCARTES_MAIN_FETAL_CILIATED_EPITHELIAL_CELLS	Ciliated epithelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	685	685	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CILIATED_EPITHELIAL_CELLS
+DESCARTES_MAIN_FETAL_CLC_IL5RA_POSITIVE_CELLS	Clc il5ra positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	252	252	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CLC_IL5RA_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_CORNEAL_AND_CONJUNCTIVAL_EPITHELIAL_CELLS	Corneal and conjunctival epithelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	294	294	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CORNEAL_AND_CONJUNCTIVAL_EPITHELIAL_CELLS
+DESCARTES_MAIN_FETAL_CSH1_CSH2_POSITIVE_CELLS	Csh1 csh2 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	163	163	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_CSH1_CSH2_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_DUCTAL_CELLS	Ductal cells	Cao2020_MSigDB2025.1	75 main fetal cell types	71	71	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_DUCTAL_CELLS
+DESCARTES_MAIN_FETAL_ELF3_AGBL2_POSITIVE_CELLS	Elf3 agbl2 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	216	216	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ELF3_AGBL2_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_ENDOCARDIAL_CELLS	Endocardial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	81	81	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ENDOCARDIAL_CELLS
+DESCARTES_MAIN_FETAL_ENS_GLIA	Ens glia	Cao2020_MSigDB2025.1	75 main fetal cell types	17	17	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ENS_GLIA
+DESCARTES_MAIN_FETAL_ENS_NEURONS	Ens neurons	Cao2020_MSigDB2025.1	75 main fetal cell types	42	42	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ENS_NEURONS
+DESCARTES_MAIN_FETAL_EPICARDIAL_FAT_CELLS	Epicardial fat cells	Cao2020_MSigDB2025.1	75 main fetal cell types	52	52	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_EPICARDIAL_FAT_CELLS
+DESCARTES_MAIN_FETAL_ERYTHROBLASTS	Erythroblasts	Cao2020_MSigDB2025.1	75 main fetal cell types	245	245	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ERYTHROBLASTS
+DESCARTES_MAIN_FETAL_EXCITATORY_NEURONS	Excitatory neurons	Cao2020_MSigDB2025.1	75 main fetal cell types	15	15	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_EXCITATORY_NEURONS
+DESCARTES_MAIN_FETAL_EXTRAVILLOUS_TROPHOBLASTS	Extravillous trophoblasts	Cao2020_MSigDB2025.1	75 main fetal cell types	128	128	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_EXTRAVILLOUS_TROPHOBLASTS
+DESCARTES_MAIN_FETAL_GANGLION_CELLS	Ganglion cells	Cao2020_MSigDB2025.1	75 main fetal cell types	30	30	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_GANGLION_CELLS
+DESCARTES_MAIN_FETAL_GOBLET_CELLS	Goblet cells	Cao2020_MSigDB2025.1	75 main fetal cell types	54	54	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_GOBLET_CELLS
+DESCARTES_MAIN_FETAL_GRANULE_NEURONS	Granule neurons	Cao2020_MSigDB2025.1	75 main fetal cell types	22	22	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_GRANULE_NEURONS
+DESCARTES_MAIN_FETAL_HEMATOPOIETIC_STEM_CELLS	Hematopoietic stem cells	Cao2020_MSigDB2025.1	75 main fetal cell types	79	79	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_HEMATOPOIETIC_STEM_CELLS
+DESCARTES_MAIN_FETAL_HEPATOBLASTS	Hepatoblasts	Cao2020_MSigDB2025.1	75 main fetal cell types	126	126	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_HEPATOBLASTS
+DESCARTES_MAIN_FETAL_HORIZONTAL_CELLS	Horizontal cells	Cao2020_MSigDB2025.1	75 main fetal cell types	46	46	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_HORIZONTAL_CELLS
+DESCARTES_MAIN_FETAL_IGFBP1_DKK1_POSITIVE_CELLS	Igfbp1 dkk1 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	180	180	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_IGFBP1_DKK1_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_INHIBITORY_INTERNEURONS	Inhibitory interneurons	Cao2020_MSigDB2025.1	75 main fetal cell types	34	34	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_INHIBITORY_INTERNEURONS
+DESCARTES_MAIN_FETAL_INHIBITORY_NEURONS	Inhibitory neurons	Cao2020_MSigDB2025.1	75 main fetal cell types	7	7	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_INHIBITORY_NEURONS
+DESCARTES_MAIN_FETAL_INTESTINAL_EPITHELIAL_CELLS	Intestinal epithelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	90	90	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_INTESTINAL_EPITHELIAL_CELLS
+DESCARTES_MAIN_FETAL_ISLET_ENDOCRINE_CELLS	Islet endocrine cells	Cao2020_MSigDB2025.1	75 main fetal cell types	70	70	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_ISLET_ENDOCRINE_CELLS
+DESCARTES_MAIN_FETAL_LENS_FIBRE_CELLS	Lens fibre cells	Cao2020_MSigDB2025.1	75 main fetal cell types	284	284	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_LENS_FIBRE_CELLS
+DESCARTES_MAIN_FETAL_LIMBIC_SYSTEM_NEURONS	Limbic system neurons	Cao2020_MSigDB2025.1	75 main fetal cell types	12	12	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_LIMBIC_SYSTEM_NEURONS
+DESCARTES_MAIN_FETAL_LYMPHATIC_ENDOTHELIAL_CELLS	Lymphatic endothelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	88	88	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_LYMPHATIC_ENDOTHELIAL_CELLS
+DESCARTES_MAIN_FETAL_LYMPHOID_CELLS	Lymphoid cells	Cao2020_MSigDB2025.1	75 main fetal cell types	158	158	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_LYMPHOID_CELLS
+DESCARTES_MAIN_FETAL_MEGAKARYOCYTES	Megakaryocytes	Cao2020_MSigDB2025.1	75 main fetal cell types	213	213	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_MEGAKARYOCYTES
+DESCARTES_MAIN_FETAL_MESANGIAL_CELLS	Mesangial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	27	27	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_MESANGIAL_CELLS
+DESCARTES_MAIN_FETAL_MESOTHELIAL_CELLS	Mesothelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	34	34	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_MESOTHELIAL_CELLS
+DESCARTES_MAIN_FETAL_METANEPHRIC_CELLS	Metanephric cells	Cao2020_MSigDB2025.1	75 main fetal cell types	46	46	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_METANEPHRIC_CELLS
+DESCARTES_MAIN_FETAL_MICROGLIA	Microglia	Cao2020_MSigDB2025.1	75 main fetal cell types	186	186	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_MICROGLIA
+DESCARTES_MAIN_FETAL_MUC13_DMBT1_POSITIVE_CELLS	Muc13 dmbt1 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	111	111	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_MUC13_DMBT1_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_MYELOID_CELLS	Myeloid cells	Cao2020_MSigDB2025.1	75 main fetal cell types	98	98	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_MYELOID_CELLS
+DESCARTES_MAIN_FETAL_NEUROENDOCRINE_CELLS	Neuroendocrine cells	Cao2020_MSigDB2025.1	75 main fetal cell types	45	45	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_NEUROENDOCRINE_CELLS
+DESCARTES_MAIN_FETAL_OLIGODENDROCYTES	Oligodendrocytes	Cao2020_MSigDB2025.1	75 main fetal cell types	64	64	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_OLIGODENDROCYTES
+DESCARTES_MAIN_FETAL_PAEP_MECOM_POSITIVE_CELLS	Paep mecom positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	214	214	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_PAEP_MECOM_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_PARIETAL_AND_CHIEF_CELLS	Parietal and chief cells	Cao2020_MSigDB2025.1	75 main fetal cell types	127	127	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_PARIETAL_AND_CHIEF_CELLS
+DESCARTES_MAIN_FETAL_PDE11A_FAM19A2_POSITIVE_CELLS	Pde11a fam19a2 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	77	77	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_PDE11A_FAM19A2_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_PDE1C_ACSM3_POSITIVE_CELLS	Pde1c acsm3 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	361	361	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_PDE1C_ACSM3_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_PHOTORECEPTOR_CELLS	Photoreceptor cells	Cao2020_MSigDB2025.1	75 main fetal cell types	102	102	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_PHOTORECEPTOR_CELLS
+DESCARTES_MAIN_FETAL_RETINAL_PIGMENT_CELLS	Retinal pigment cells	Cao2020_MSigDB2025.1	75 main fetal cell types	196	196	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_RETINAL_PIGMENT_CELLS
+DESCARTES_MAIN_FETAL_RETINAL_PROGENITORS_AND_MULLER_GLIA	Retinal progenitors and muller glia	Cao2020_MSigDB2025.1	75 main fetal cell types	65	65	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_RETINAL_PROGENITORS_AND_MULLER_GLIA
+DESCARTES_MAIN_FETAL_SATB2_LRRC7_POSITIVE_CELLS	Satb2 lrrc7 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	152	152	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SATB2_LRRC7_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_SATELLITE_CELLS	Satellite cells	Cao2020_MSigDB2025.1	75 main fetal cell types	66	66	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SATELLITE_CELLS
+DESCARTES_MAIN_FETAL_SCHWANN_CELLS	Schwann cells	Cao2020_MSigDB2025.1	75 main fetal cell types	51	51	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SCHWANN_CELLS
+DESCARTES_MAIN_FETAL_SKELETAL_MUSCLE_CELLS	Skeletal muscle cells	Cao2020_MSigDB2025.1	75 main fetal cell types	193	193	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SKELETAL_MUSCLE_CELLS
+DESCARTES_MAIN_FETAL_SLC24A4_PEX5L_POSITIVE_CELLS	Slc24a4 pex5l positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	23	23	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SLC24A4_PEX5L_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_SLC26A4_PAEP_POSITIVE_CELLS	Slc26a4 paep positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	351	351	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SLC26A4_PAEP_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_SMOOTH_MUSCLE_CELLS	Smooth muscle cells	Cao2020_MSigDB2025.1	75 main fetal cell types	44	44	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SMOOTH_MUSCLE_CELLS
+DESCARTES_MAIN_FETAL_SQUAMOUS_EPITHELIAL_CELLS	Squamous epithelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	130	130	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SQUAMOUS_EPITHELIAL_CELLS
+DESCARTES_MAIN_FETAL_STC2_TLX1_POSITIVE_CELLS	Stc2 tlx1 positive cells	Cao2020_MSigDB2025.1	75 main fetal cell types	20	20	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_STC2_TLX1_POSITIVE_CELLS
+DESCARTES_MAIN_FETAL_STELLATE_CELLS	Stellate cells	Cao2020_MSigDB2025.1	75 main fetal cell types	63	63	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_STELLATE_CELLS
+DESCARTES_MAIN_FETAL_STROMAL_CELLS	Stromal cells	Cao2020_MSigDB2025.1	75 main fetal cell types	23	23	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_STROMAL_CELLS
+DESCARTES_MAIN_FETAL_SYMPATHOBLASTS	Sympathoblasts	Cao2020_MSigDB2025.1	75 main fetal cell types	57	57	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SYMPATHOBLASTS
+DESCARTES_MAIN_FETAL_SYNCYTIOTROPHOBLASTS_AND_VILLOUS_CYTOTROPHOBLASTS	Syncytiotrophoblasts and villous cytotrophoblasts	Cao2020_MSigDB2025.1	75 main fetal cell types	144	144	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_SYNCYTIOTROPHOBLASTS_AND_VILLOUS_CYTOTROPHOBLASTS
+DESCARTES_MAIN_FETAL_THYMIC_EPITHELIAL_CELLS	Thymic epithelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	285	285	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_THYMIC_EPITHELIAL_CELLS
+DESCARTES_MAIN_FETAL_THYMOCYTES	Thymocytes	Cao2020_MSigDB2025.1	75 main fetal cell types	124	124	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_THYMOCYTES
+DESCARTES_MAIN_FETAL_TROPHOBLAST_GIANT_CELLS	Trophoblast giant cells	Cao2020_MSigDB2025.1	75 main fetal cell types	171	171	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_TROPHOBLAST_GIANT_CELLS
+DESCARTES_MAIN_FETAL_UNIPOLAR_BRUSH_CELLS	Unipolar brush cells	Cao2020_MSigDB2025.1	75 main fetal cell types	35	35	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_UNIPOLAR_BRUSH_CELLS
+DESCARTES_MAIN_FETAL_URETERIC_BUD_CELLS	Ureteric bud cells	Cao2020_MSigDB2025.1	75 main fetal cell types	43	43	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_URETERIC_BUD_CELLS
+DESCARTES_MAIN_FETAL_VASCULAR_ENDOTHELIAL_CELLS	Vascular endothelial cells	Cao2020_MSigDB2025.1	75 main fetal cell types	52	52	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_VASCULAR_ENDOTHELIAL_CELLS
+DESCARTES_MAIN_FETAL_VISCERAL_NEURONS	Visceral neurons	Cao2020_MSigDB2025.1	75 main fetal cell types	88	88	https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/DESCARTES_MAIN_FETAL_VISCERAL_NEURONS

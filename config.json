@@ -1,0 +1,84 @@
+{
+  "release": "2026-10-24",
+  "contrasts": [
+    {
+      "id": "whole_gene_ko",
+      "source_id": "JAX",
+      "label": "Whole-gene KO"
+    },
+    {
+      "id": "knock_in_ko",
+      "source_id": "MSK",
+      "label": "Knock-in KO"
+    },
+    {
+      "id": "degron_matched",
+      "source_id": "NW",
+      "label": "Degron (matched control)"
+    },
+    {
+      "id": "degron_parental",
+      "source_id": "NW_parent",
+      "label": "Degron (parental control)"
+    },
+    {
+      "id": "crispri",
+      "source_id": "UCSF",
+      "label": "CRISPRi"
+    }
+  ],
+  "primary_timepoint": "48h",
+  "target_sizes": [
+    500,
+    1500
+  ],
+  "cell_fate_exclusion_top_n": 1500,
+  "eligibility": {
+    "q75_pass": true,
+    "min_max_mean_CPM": 1
+  },
+  "DE": {
+    "max_storey_q": 0.05,
+    "min_abs_log2FC": 1
+  },
+  "symbol_matching": "Exact uppercase RNA-export symbols; no alias inference or restriction to ChIP-annotated genes.",
+  "target_test": {
+    "method": "one-sided Fisher exact, greater",
+    "effect": "observed / expected directional DE overlap",
+    "main_BH_family": 20,
+    "sensitivity_BH_family": 10
+  },
+  "cell_fate": {
+    "method": "unweighted preranked GSEA",
+    "ranking": "logFC",
+    "min_size": 10,
+    "max_size": 1000,
+    "seed": 20261024,
+    "eps": 1e-07,
+    "nPermSimple": 1000,
+    "gseaParam": 0,
+    "BH_family": "all eligible signatures and five contrasts, separately for each variant"
+  },
+  "cell_fate_display": [
+    "TYSER_Endo",
+    "TYSER_DE2",
+    "TYSER_Epi",
+    "TYSER_AM",
+    "TYSER_ExM",
+    "TYSER_HEP",
+    "TYSER_Endothelium",
+    "DESCARTES_MAIN_FETAL_SMOOTH_MUSCLE_CELLS",
+    "DESCARTES_MAIN_FETAL_VASCULAR_ENDOTHELIAL_CELLS",
+    "DESCARTES_MAIN_FETAL_CARDIOMYOCYTES",
+    "DESCARTES_MAIN_FETAL_METANEPHRIC_CELLS",
+    "TYSER_Amnion",
+    "TYSER_Hypoblast",
+    "DESCARTES_MAIN_FETAL_ASTROCYTES",
+    "DESCARTES_MAIN_FETAL_INHIBITORY_INTERNEURONS",
+    "TYSER_NNE"
+  ],
+  "reference_signature_count": 96,
+  "reference_Tyser_top_n": 50,
+  "remap_reference_size": 1446,
+  "scope": "Frozen selected 48h processed ChIP inputs and original DE calls; no input-control selection, alignment, peak-calling rerun, DE refit, 24h analysis, motif analysis, expression-filter exploration, ROC or target GSEA."
+}

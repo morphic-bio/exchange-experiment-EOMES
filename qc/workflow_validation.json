@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "entrypoint": "run.py",
+  "working_directory": "/private/tmp",
+  "stages": [
+    "analysis",
+    "cell_fate",
+    "figures",
+    "document",
+    "validation"
+  ],
+  "parent_data_required": false,
+  "network_required": false
+}

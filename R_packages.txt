@@ -1,0 +1,5 @@
+# Required packages. Exact versions used for this release are in qc/R_sessionInfo.txt.
+fgsea
+data.table
+jsonlite
+BiocParallel

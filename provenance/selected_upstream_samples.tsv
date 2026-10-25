@@ -1,0 +1,4 @@
+sample	gsm	runs	timepoint	replicate	role	layout	bam	flagstat
+EOMES_DE48h_rep1	GSM6585561	SRR21586161	48h	1	chip	PE	data:bam/EOMES_DE48h_rep1.final.bam	data:qc/EOMES_DE48h_rep1/EOMES_DE48h_rep1.final.flagstat
+EOMES_DE48h_rep2	GSM6585562	SRR21586115	48h	2	chip	PE	data:bam/EOMES_DE48h_rep2.final.bam	data:qc/EOMES_DE48h_rep2/EOMES_DE48h_rep2.final.flagstat
+Input_GSM3381961	GSM3381961	SRR7814534	both	1	input	SE	input:bam/SRR7814534.final.bam	input:qc/SRR7814534/final.flagstat

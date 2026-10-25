@@ -1,0 +1,32 @@
+{
+  "DE_notebook": "/Users/wsun/research/GitHub/exchange-experiment-analysis/scripts/02_DE_testing_EOMES_data_03152026.ipynb",
+  "DE_notebook_sha256": "f34d60f701fcbc8fbba0fcf1ba4c13aa08f70baf62b4aa98269d2af40205d8ed",
+  "q75_definition": "75th percentile of gene counts across original sample matrix > 0",
+  "historical_ChIP_BAM_program_headers": {
+    "replicate_1": [
+      "@PG\tID:bowtie2\tPN:bowtie2\tVN:2.5.5\tCL:\"/opt/homebrew/Caskroom/miniforge/base/envs/eomes_chip/bin/bowtie2-align-s --wrapper basic-0 -p 10 -x /Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/ref/GRCh38_noalt_as -1 /Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/01_fastq/EOMES_DE48h_rep1_R1.fastq.gz -2 /Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/01_fastq/EOMES_DE48h_rep1_R2.fastq.gz\"",
+      "@PG\tID:samtools\tPN:samtools\tPP:bowtie2\tVN:1.24\tCL:samtools sort -n -@ 4 -o EOMES_DE48h_rep1.namesort.bam -",
+      "@PG\tID:samtools.1\tPN:samtools\tPP:samtools\tVN:1.24\tCL:samtools fixmate -m -@ 4 EOMES_DE48h_rep1.namesort.bam EOMES_DE48h_rep1.fixmate.bam",
+      "@PG\tID:samtools.2\tPN:samtools\tPP:samtools.1\tVN:1.24\tCL:samtools sort -@ 4 -o EOMES_DE48h_rep1.coordsort.bam EOMES_DE48h_rep1.fixmate.bam",
+      "@PG\tID:samtools.3\tPN:samtools\tPP:samtools.2\tVN:1.24\tCL:samtools markdup -r -s -@ 4 EOMES_DE48h_rep1.coordsort.bam EOMES_DE48h_rep1.dedup.bam",
+      "@PG\tID:samtools.4\tPN:samtools\tPP:samtools.3\tVN:1.24\tCL:samtools view -@ 4 -b -q 30 -f 2 -F 1804 EOMES_DE48h_rep1.dedup.bam",
+      "@PG\tID:samtools.5\tPN:samtools\tPP:samtools.4\tVN:1.24\tCL:samtools view -@ 4 -b EOMES_DE48h_rep1.tmp.bam chr1 chr2 chr3 chr4 chr5 chr6 chr7 chr8 chr9 chr10 chr11 chr12 chr13 chr14 chr15 chr16 chr17 chr18 chr19 chr20 chr21 chr22 chrX chrY"
+    ],
+    "replicate_2": [
+      "@PG\tID:bowtie2\tPN:bowtie2\tVN:2.5.5\tCL:\"/opt/homebrew/Caskroom/miniforge/base/envs/eomes_chip/bin/bowtie2-align-s --wrapper basic-0 -p 10 -x /Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/ref/GRCh38_noalt_as -1 /Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/01_fastq/EOMES_DE48h_rep2_R1.fastq.gz -2 /Users/wsun/research/MorPhiC/exchange_experiment/EOMES/chipseq_eomes/01_fastq/EOMES_DE48h_rep2_R2.fastq.gz\"",
+      "@PG\tID:samtools\tPN:samtools\tPP:bowtie2\tVN:1.24\tCL:samtools sort -n -@ 4 -o EOMES_DE48h_rep2.namesort.bam -",
+      "@PG\tID:samtools.1\tPN:samtools\tPP:samtools\tVN:1.24\tCL:samtools fixmate -m -@ 4 EOMES_DE48h_rep2.namesort.bam EOMES_DE48h_rep2.fixmate.bam",
+      "@PG\tID:samtools.2\tPN:samtools\tPP:samtools.1\tVN:1.24\tCL:samtools sort -@ 4 -o EOMES_DE48h_rep2.coordsort.bam EOMES_DE48h_rep2.fixmate.bam",
+      "@PG\tID:samtools.3\tPN:samtools\tPP:samtools.2\tVN:1.24\tCL:samtools markdup -r -s -@ 4 EOMES_DE48h_rep2.coordsort.bam EOMES_DE48h_rep2.dedup.bam",
+      "@PG\tID:samtools.4\tPN:samtools\tPP:samtools.3\tVN:1.24\tCL:samtools view -@ 4 -b -q 30 -f 2 -F 1804 EOMES_DE48h_rep2.dedup.bam",
+      "@PG\tID:samtools.5\tPN:samtools\tPP:samtools.4\tVN:1.24\tCL:samtools view -@ 4 -b EOMES_DE48h_rep2.tmp.bam chr1 chr2 chr3 chr4 chr5 chr6 chr7 chr8 chr9 chr10 chr11 chr12 chr13 chr14 chr15 chr16 chr17 chr18 chr19 chr20 chr21 chr22 chrX chrY"
+    ]
+  },
+  "historical_vs_optional_alignment": "Historical ChIP filter -q 30 -f 2 -F 1804; optional align_fastq.py uses -F 3852 and additionally excludes supplementary alignments. Release reuses historical final outputs.",
+  "references": {
+    "Luo2023": "https://doi.org/10.1038/s41588-023-01450-7",
+    "Li2019": "https://doi.org/10.1038/s41588-019-0408-9",
+    "Tyser2021": "https://doi.org/10.1038/s41586-021-04158-y",
+    "Cao2020": "https://doi.org/10.1126/science.aba7721"
+  }
+}

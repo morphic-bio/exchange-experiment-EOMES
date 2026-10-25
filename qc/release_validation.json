@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "frozen_inputs": 14,
+  "final_48h_peaks": 43700,
+  "peak_gene_links": 71459,
+  "score_formula_reconstructed": true,
+  "directional_main_tests": 20,
+  "cell_fate_tests_by_variant": {
+    "all_genes": 441,
+    "outside_ChIP48_top1500": 436
+  },
+  "excluded_gene_counts_match_top1500": true,
+  "primary_contains_no_ReMap_variant": true,
+  "sensitivity_all_gene_panel_matches_primary": true,
+  "python": "3.9.6",
+  "matplotlib": "3.8.2"
+}

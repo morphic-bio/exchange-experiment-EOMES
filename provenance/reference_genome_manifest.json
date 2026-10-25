@@ -1,0 +1,41 @@
+{
+  "actual_extension": "bt2",
+  "assembly": "GRCh38 no-alt analysis set",
+  "builder": "aws-indexes:metadata-backfill",
+  "built_utc": "2026-05-26T21:36:38Z",
+  "command": "unknown",
+  "date": "2026-05-26",
+  "expected_extension": "bt2",
+  "id": "grch38_noalt",
+  "index_base": "GRCh38_noalt_as",
+  "inputs": [
+    {
+      "md5": "a08035b6a6e31780e96a34008ff21bd6",
+      "path": "source.fa.gz"
+    }
+  ],
+  "notes": "NCBI analysis set (UCSC-style contig names) Metadata-only backfill; index .bt2 shards unchanged from s3://genome-idx/bt; original bowtie2-build version/date/command not recorded.",
+  "outputs": [
+    "GRCh38_noalt_as.1.bt2",
+    "GRCh38_noalt_as.2.bt2",
+    "GRCh38_noalt_as.3.bt2",
+    "GRCh38_noalt_as.4.bt2",
+    "GRCh38_noalt_as.rev.1.bt2",
+    "GRCh38_noalt_as.rev.2.bt2",
+    "GRCh38_noalt_as.dict",
+    "GRCh38_noalt_as.zip",
+    "GRCh38_noalt_as.md5",
+    "GRCh38_noalt_as.build.txt",
+    "GRCh38_noalt_as.manifest.json"
+  ],
+  "schema_version": "1.0",
+  "source": "NCBI",
+  "source_urls": [
+    "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz"
+  ],
+  "species": "Human",
+  "threads": "unknown",
+  "tool": "bowtie2-build",
+  "tool_version": "unknown",
+  "tool_version_output": "unknown"
+}

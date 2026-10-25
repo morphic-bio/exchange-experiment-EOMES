@@ -1,0 +1,11 @@
+{
+  "timepoint": "48h",
+  "pooled_permissive_peaks": 75535,
+  "idr_matched_peaks": 67318,
+  "idr_pass": 43707,
+  "final_peaks": 43700,
+  "linked_peaks": 28645,
+  "gene_peak_links": 71459,
+  "gene_universe": 38899,
+  "candidate_targets": 27888
+}

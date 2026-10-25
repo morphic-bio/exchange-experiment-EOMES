@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "compared_rows": 441,
+  "checks": {
+    "ES": true,
+    "NES": true,
+    "pval": true,
+    "size": true,
+    "global_BH_q": true,
+    "leadingEdge": true
+  },
+  "reference": "exploration/cell_fate_literature_first/tables/cell_type_GSEA.tsv; primary variant",
+  "runtime_dependency": false
+}

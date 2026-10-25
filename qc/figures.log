@@ -1,0 +1,9 @@
+/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/release_version_2026_10_24/scripts/render_results.py:8: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+Created the combined primary figure and one separate ReMap sensitivity figure.
