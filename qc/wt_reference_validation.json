@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "WT_samples": 9,
+  "base_fits": 783,
+  "assignments": 1566,
+  "max_source_benchmark_ES_error": 0,
+  "max_native_vs_limma_logFC_error": 4.6463e-14,
+  "original_q75_fitting_universe": 23100,
+  "fixed_comparison_expression_masks": true,
+  "gene_ID_matching": true,
+  "benchmark_scores_checked": 7830
+}

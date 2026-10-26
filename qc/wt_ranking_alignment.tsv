@@ -1,0 +1,6 @@
+contrast	source_contrast	current_ranked_genes	source_ranked_genes	only_current_symbols	only_source_symbols	shared_symbols_with_different_representative_ID	min_max_mean_CPM
+whole_gene_ko	JAX	15165	15165	134	134	3	1.00024601870768
+knock_in_ko	MSK	15009	15009	135	135	5	1.00026465099719
+degron_matched	NW	14827	14827	129	129	7	1.0002260587927
+degron_parental	NW_parent	15047	15047	128	128	5	1.00110430514607
+crispri	UCSF	14524	14523	135	134	3	1.00004901476858

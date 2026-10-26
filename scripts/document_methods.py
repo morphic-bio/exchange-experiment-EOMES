@@ -72,14 +72,15 @@ def add_methods(d):
     q.add_run('; and 75 main fetal cell-type signatures from ')
     link(q,'Cao et al., Science (2020)','https://doi.org/10.1126/science.aba7721')
     q.add_run(', obtained from MSigDB C8 v2025.1.Hs. The frozen GMT and source metadata are in inputs/reference/. The figure displays 16 signatures; testing includes all eligible signatures.')
-    p('All eligible genes, not only DE genes, are ranked by decreasing signed logFC. Duplicate symbols use the eligible locus with highest AveExpr, then Ensembl ID to break ties. fgseaMultilevel 1.38.0 runs unweighted GSEA (gseaParam=0), minSize=10, maxSize=1000, nPermSimple=1000, eps=1e-7 and seed 20261024, with SerialParam. NES normalizes the running-sum enrichment score against a gene-set-size-matched null; positive/negative NES indicates enrichment toward increased/decreased expression.')
-    p('Panel B uses the full eligible ranking. Panel C removes the 48-hour top-1,500 targets from the ranked universe and therefore from signature intersections before rerunning GSEA. BH correction spans all tested signatures and all five original contrasts separately for B and C (441 and 436 tests). Stars use the resulting BH_q, not fgsea’s within-contrast padj. The hidden parental-control comparison remains in these correction families. Gene-program similarity does not establish a single new fate, and absence from a target list does not prove indirect regulation.')
+    from update_wt_documents import METHODS
+    for text in METHODS:
+        p(text)
 
     heading('Reproduce the released figure')
-    p('From release_version_2026_10_24, install requirements.txt plus the R packages in R_packages.txt, then run:')
+    p('From the repository root, install requirements.txt plus the R packages in R_packages.txt, then run:')
     d.add_paragraph('python3 run.py',style='Methods code')
-    p('Use --rscript /path/to/Rscript or --docx-python /path/to/python if needed. To regenerate only this four-column display and document from existing tables:')
+    p('Use --rscript /path/to/Rscript if needed. To regenerate only this four-column display and document from existing tables:')
     d.add_paragraph('python3 scripts/render_results.py --single-degron\npython3 scripts/build_document.py --single-degron',style='Methods code')
-    p('The release is offline and starts from frozen final ChIP peaks, links, scores, target rankings and original DE tables. It does not rerun raw-read alignment, input selection or the RNA DE model. Upstream code remains in chipseq_eomes/ (align_fastq.py, pipeline.py); historical commands are in logs/commands.jsonl and BAM headers. Raw-data paths and reference checksums are in provenance/. The recorded ChIP filter above describes the historical BAMs; the optional realignment script additionally excludes supplementary alignments.')
+    p('The release is offline and starts from frozen final ChIP peaks, links, scores, target rankings and original DE tables. It does not rerun raw-read alignment, input selection or observed RNA DE models. WT-versus-WT models use the frozen inputs in inputs/wt_reference/. Upstream code remains in chipseq_eomes/ (align_fastq.py, pipeline.py); historical commands are in logs/commands.jsonl and BAM headers. Raw-data paths and reference checksums are in provenance/. The recorded ChIP filter above describes the historical BAMs; the optional realignment script additionally excludes supplementary alignments.')
     p('Numerical outputs are in results/tables/; the figure and document use the suffix _single_degron. config.json records thresholds and displayed signatures. Input and output checksums, validation and software versions are in provenance/, release_manifest.json and qc/. Tested core versions: Python 3.9.6, NumPy 1.26.3, pandas 2.2.0, SciPy 1.12.0, Matplotlib 3.8.2; R 4.6.1, fgsea 1.38.0; python-docx 1.2.0. ReMap is retained only as a separate sensitivity analysis.')
 

@@ -1,0 +1,45 @@
+{
+  "source": "release_version_2026_10_24/results/documents/figure_1_with_caption_single_degron.docx",
+  "source_sha256": "a2b933572a844d4ec0ccbea2ef62d7f535e23df82dbeea877dfb9e1b74124146",
+  "output": "release_version_2026_10_24/results/documents/figure_1_with_caption_single_degron_with_references.docx",
+  "output_sha256": "01e1fc4fa3cf1501c8a735b60084be8523aaa0d0748caa28996f514164b85f06",
+  "citation_replacements": [
+    {
+      "paragraph": 1,
+      "before": "Tyser et al. (2021)",
+      "after": "[Tyser et al. 2021]"
+    },
+    {
+      "paragraph": 1,
+      "before": "Cao et al. (2020)",
+      "after": "[Cao et al. 2020]"
+    },
+    {
+      "paragraph": 5,
+      "before": "Luo et al., Nature Genetics (2023)",
+      "after": "[Luo et al. 2023]"
+    },
+    {
+      "paragraph": 5,
+      "before": "Li et al., Nature Genetics (2019)",
+      "after": "[Li et al. 2019]"
+    },
+    {
+      "paragraph": 18,
+      "before": "Tyser et al., Nature (2021)",
+      "after": "[Tyser et al. 2021]"
+    },
+    {
+      "paragraph": 18,
+      "before": "Cao et al., Science (2020)",
+      "after": "[Cao et al. 2020]"
+    }
+  ],
+  "reference_count": 4,
+  "noncitation_content_and_formatting_preserved": true,
+  "all_non_document_xml_package_parts_identical": true,
+  "rendered_pages": 4,
+  "all_pages_visually_verified": true,
+  "no_clipping_or_overlap": true,
+  "source_user_edits_preserved": true
+}

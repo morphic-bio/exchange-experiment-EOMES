@@ -1,0 +1,226 @@
+{
+  "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3",
+  "files": [
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/inputs/EOMES/gene_universe.tsv",
+      "source_sha256": "f7b94611858422b4d9318cb874f76be821df9bd73df243349d3cf92112c3f00d",
+      "release_path": "inputs/wt_reference/gene_universe.tsv",
+      "sha256": "f7b94611858422b4d9318cb874f76be821df9bd73df243349d3cf92112c3f00d",
+      "bytes": 1274850,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/base_assignments.csv",
+      "source_sha256": "407b23bea6f6420152b82357d3d3622352268d1583db38db3a19d570326bafb2",
+      "release_path": "inputs/wt_reference/base_assignments.csv",
+      "sha256": "407b23bea6f6420152b82357d3d3622352268d1583db38db3a19d570326bafb2",
+      "bytes": 113168,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/all_assignments.csv",
+      "source_sha256": "b267356675a11719194e31a253edef7b09c6e3d9420e809bef4bb975b12cac1c",
+      "release_path": "inputs/wt_reference/all_assignments.csv",
+      "sha256": "b267356675a11719194e31a253edef7b09c6e3d9420e809bef4bb975b12cac1c",
+      "bytes": 266153,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/inputs/EOMES_48h_top500_targets.tsv",
+      "source_sha256": "ef46d316bd5ecf7babf488038fc4a520e96c1c27cf3f8bf7f634607a0b4309c1",
+      "release_path": "inputs/wt_reference/source_top500.tsv",
+      "sha256": "ef46d316bd5ecf7babf488038fc4a520e96c1c27cf3f8bf7f634607a0b4309c1",
+      "bytes": 67375,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/inputs/selected_WT_samples.csv",
+      "source_sha256": "d0859bc5cf39222b7fc724a59aa6d8e54728556e518f4f04ba2e6657c7f52384",
+      "release_path": "inputs/wt_reference/selected_WT_samples.csv",
+      "sha256": "e3cd10b1df038daa65fb6ef2bfabf036faf24d0a075b7ad944ce65601b603499",
+      "bytes": 5568,
+      "storage": "EOMES rows, original order"
+    },
+    {
+      "source": "/Users/wsun/research/MorPhiC/exchange_experiment/DRACC-processed/MSK_exchange_experiment_DRACC_processed_March_2026/Tables/genesCounts.csv",
+      "source_sha256": "ebc263216694c35cd270a9f66a925bdd780a47db5c72f95b1f78a3a47feb6418",
+      "release_path": "inputs/wt_reference/WT_counts.tsv.gz",
+      "sha256": "d676eeac5177b003b52d81776f570cbe0b802854eb373b35416194b4b25e5797",
+      "bytes": 384450,
+      "storage": "original q75 fitting universe; nine selected EOMES WT columns"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/JAX/observed_ranks.tsv",
+      "source_sha256": "813394cd805e30acc5402f151ed1d16e071b18206dee80af861d5b9792e2cb78",
+      "release_path": "inputs/wt_reference/source_observed_ranks_JAX.tsv",
+      "sha256": "813394cd805e30acc5402f151ed1d16e071b18206dee80af861d5b9792e2cb78",
+      "bytes": 1138646,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/MSK/observed_ranks.tsv",
+      "source_sha256": "3a3c41bd8ca8781472b04cef4295de8df7f71161f2c791a64629ae4f47ad60e2",
+      "release_path": "inputs/wt_reference/source_observed_ranks_MSK.tsv",
+      "sha256": "3a3c41bd8ca8781472b04cef4295de8df7f71161f2c791a64629ae4f47ad60e2",
+      "bytes": 1127136,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/NW/observed_ranks.tsv",
+      "source_sha256": "459faf8098aea11d84daf9c6156d00e344f06b0528a46e1cdcbe5472c138ba92",
+      "release_path": "inputs/wt_reference/source_observed_ranks_NW.tsv",
+      "sha256": "459faf8098aea11d84daf9c6156d00e344f06b0528a46e1cdcbe5472c138ba92",
+      "bytes": 1115294,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/NW_parent/observed_ranks.tsv",
+      "source_sha256": "f6e781fe72f0893daa338716ed889d23c5cf9749bf6963390a591ce1dd45124f",
+      "release_path": "inputs/wt_reference/source_observed_ranks_NW_parent.tsv",
+      "sha256": "f6e781fe72f0893daa338716ed889d23c5cf9749bf6963390a591ce1dd45124f",
+      "bytes": 1128953,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/UCSF/observed_ranks.tsv",
+      "source_sha256": "21c023361396ac8b85285939b1857f55e3653af70b60fe163aeb0fd2c5a22d3f",
+      "release_path": "inputs/wt_reference/source_observed_ranks_UCSF.tsv",
+      "sha256": "21c023361396ac8b85285939b1857f55e3653af70b60fe163aeb0fd2c5a22d3f",
+      "bytes": 1094558,
+      "storage": "unchanged source bytes"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/METHODS.md",
+      "source_sha256": "2bc561b0921cd7b645e2891b43ff15d533446c7d9972c1034b1ce5b8c2e677c9",
+      "release_path": "provenance/wt_reference/METHODS.md",
+      "sha256": "2bc561b0921cd7b645e2891b43ff15d533446c7d9972c1034b1ce5b8c2e677c9",
+      "bytes": 4328,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/common.R",
+      "source_sha256": "91d1fe1b40b0e949de3c0ce6876873ab8a04a80ee372ba2f9ec0ada1278cfd56",
+      "release_path": "provenance/wt_reference/common.R",
+      "sha256": "91d1fe1b40b0e949de3c0ce6876873ab8a04a80ee372ba2f9ec0ada1278cfd56",
+      "bytes": 1255,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/prepare.R",
+      "source_sha256": "8c878e92780b651ff67a9c026335e410e73c72cdb760a4defc88c533a1210c70",
+      "release_path": "provenance/wt_reference/prepare.R",
+      "sha256": "8c878e92780b651ff67a9c026335e410e73c72cdb760a4defc88c533a1210c70",
+      "bytes": 4978,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/run.R",
+      "source_sha256": "bf8193154d6e328e7731c270bc5bef1ca80e248d1bf7e58f6301f779a25664e1",
+      "release_path": "provenance/wt_reference/run.R",
+      "sha256": "bf8193154d6e328e7731c270bc5bef1ca80e248d1bf7e58f6301f779a25664e1",
+      "bytes": 3909,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/finalize.R",
+      "source_sha256": "29fa3b2b9bc7ddc8d1b9b23087c50439eebc65783a765e42157a1a90547a1f8a",
+      "release_path": "provenance/wt_reference/finalize.R",
+      "sha256": "29fa3b2b9bc7ddc8d1b9b23087c50439eebc65783a765e42157a1a90547a1f8a",
+      "bytes": 9011,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/score.cpp",
+      "source_sha256": "8daa2dc89b57a60cd4ebbaf09ce9c4809bc456f54970d3ecbef04a8e0b427354",
+      "release_path": "provenance/wt_reference/score.cpp",
+      "sha256": "8daa2dc89b57a60cd4ebbaf09ce9c4809bc456f54970d3ecbef04a8e0b427354",
+      "bytes": 1660,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/fit.cpp",
+      "source_sha256": "1a3bb3ecca3494125577e3bd62bbbf5315df315f182a8cdf2fbcc1f53533dc25",
+      "release_path": "provenance/wt_reference/fit.cpp",
+      "sha256": "1a3bb3ecca3494125577e3bd62bbbf5315df315f182a8cdf2fbcc1f53533dc25",
+      "bytes": 663,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/input_manifest.json",
+      "source_sha256": "aee8f67d229c87dfed9cb16ac5d708363a2cc51fbfb6ed996d3259c661762eea",
+      "release_path": "provenance/wt_reference/input_manifest.json",
+      "sha256": "aee8f67d229c87dfed9cb16ac5d708363a2cc51fbfb6ed996d3259c661762eea",
+      "bytes": 29578,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/INDEPENDENT_QC.json",
+      "source_sha256": "7827cfc5919aeb616bea8547b5d724a0368f48dcb91037a36cb143d9dd9b9140",
+      "release_path": "provenance/wt_reference/INDEPENDENT_QC.json",
+      "sha256": "7827cfc5919aeb616bea8547b5d724a0368f48dcb91037a36cb143d9dd9b9140",
+      "bytes": 4331,
+      "storage": "unchanged upstream provenance; not executed by the release"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/full_observed_results.csv",
+      "source_sha256": "a12c96fe29b72a02aa821c223bcf8beb7aa7f38d9c6e17031261e47fe243528e",
+      "release_path": "inputs/wt_reference/source_benchmark_results.csv",
+      "sha256": "6311062dbc3143171643240610aa10d00cc5e20ea921c46b8466d25d7e886154",
+      "bytes": 7404,
+      "storage": "custom ChIP benchmark rows"
+    },
+    {
+      "source": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks",
+      "release_path": "inputs/wt_reference/source_benchmark_scores.rds",
+      "sha256": "7a3cfc0a09db6b3b985949a152f6563fd4b6fde4ce5ee181769674de8cc74d99",
+      "bytes": 58348,
+      "storage": "custom ChIP WT ES extracted from all EOMES source chunks"
+    }
+  ],
+  "benchmark_chunks": [
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0001.rds",
+      "sha256": "257fbaf72576461ed3353237d26dd7dbe58521fc16611a84a32f6aa6185acd5a"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0002.rds",
+      "sha256": "3ec74b28daaaeb08e8e8b424c4a18b844aec9a0a28b2b0b302e93864bba1cd05"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0003.rds",
+      "sha256": "df62ecb47f94a9c385523dcabd26a152b9a6b16599d130662d5acca8177a8bf1"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0004.rds",
+      "sha256": "deae3b00dc195c6a5d049acf7f86624965402855a3b16d64128d7018443dc8fc"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0005.rds",
+      "sha256": "5be8b0ef220325977e0bb2a6464c7c816f0a2e3d7b8f33561a535069d57de381"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0006.rds",
+      "sha256": "cddd380a0bcaa429a6e28f1d25f324630645bbc84480a5256429592641ace21e"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0007.rds",
+      "sha256": "acd28d0c9d49039b0a9457a5f2592dd853b25360fa1a267f08926f4e21b0f1e5"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0008.rds",
+      "sha256": "e09040bb2c52bdfcda0252cbf6169ab3da323f746222eb79f860a4d55c854083"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0009.rds",
+      "sha256": "865665c0df48723d351015160deeffb2e95aa4899f06af069b9af617832b773b"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0010.rds",
+      "sha256": "fd82bd6a54e719414b64cf28e2eef8b349a01f4d27316a027b95c8ad40d03f46"
+    },
+    {
+      "path": "/Users/wsun/Library/CloudStorage/GoogleDrive-weisun2013@gmail.com/.shortcut-targets-by-id/1lCtheIStsu48LzXmlVBrG9cZQ_6bzYEF/1. MorPhiC-Consortium/4. DRACC DPC DAV Research documents/Exchange_experiment/Analysis Plan/DE_results/GSEA_expanded_WT_3v3/EOMES/chunks/batch_0011.rds",
+      "sha256": "82fb43c8e65dc45814177fc3ca59b19d7d51671e71d2dec4f5034a98adafc324"
+    }
+  ]
+}

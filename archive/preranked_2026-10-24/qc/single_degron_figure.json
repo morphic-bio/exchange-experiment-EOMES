@@ -1,0 +1,17 @@
+{
+  "displayed_contrasts": [
+    "whole_gene_ko",
+    "knock_in_ko",
+    "degron_matched",
+    "crispri"
+  ],
+  "degron_control": "matched uninduced",
+  "figure_size_inches": [
+    12.5,
+    9.0
+  ],
+  "upper_and_lower_value_font_pt": 10,
+  "method_label_font_pt": 9,
+  "omitted_contrast": "degron_parental",
+  "statistics": "Unchanged from original five-contrast analysis; original BH test families retained."
+}

@@ -70,7 +70,7 @@ cb=fig.colorbar(im,cax=fig.add_axes([.935,pos.y0,.014,pos.height]),ticks=[0,2,4]
 fate_heat(axes[1,0],fate[fate.variant=='all_genes'],'B   All expression-eligible genes')
 im=fate_heat(axes[1,1],fate[fate.variant=='outside_ChIP48_top1500'],'C   Excluding 48 h ChIP top 1,500',False)
 pos=axes[1,1].get_position()
-cb=fig.colorbar(im,cax=fig.add_axes([.935,pos.y0+.04,.014,pos.height-.08]));cb.set_label('Normalized enrichment score (NES)')
+cb=fig.colorbar(im,cax=fig.add_axes([.935,pos.y0+.04,.014,pos.height-.08]));cb.set_label('WT-reference NES')
 save(fig,ROOT/f'results/figures/figure_1_chip48_and_cell_fate{suffix}')
 
 if args.single_degron:
@@ -78,13 +78,13 @@ if args.single_degron:
     caption['text']=caption['text'].replace(
         'both degron comparisons share perturbed samples, with matched uninduced or auxin-treated parental controls.',
         'Degron denotes the comparison with matched uninduced controls. The parental-control degron comparison is omitted from this display.')
-    caption['text']+=' Enrichment values and adjusted p-values are retained from the original five-contrast analysis.'
+    caption['text']+=' This four-column display uses the updated five-contrast statistics and correction families.'
     (ROOT/'results/figures/captions_single_degron.json').write_text(json.dumps({'primary':caption},indent=2)+'\n')
     (ROOT/'results/figures/figure_1_caption_single_degron.txt').write_text('Figure 1. '+caption['title']+' '+caption['text']+'\n')
     (ROOT/'qc/single_degron_figure.json').write_text(json.dumps(dict(
         displayed_contrasts=CONTRASTS,degron_control='matched uninduced',
         figure_size_inches=[12.5,9.0],upper_and_lower_value_font_pt=10,method_label_font_pt=9,
-        omitted_contrast='degron_parental',statistics='Unchanged from original five-contrast analysis; original BH test families retained.'),indent=2)+'\n')
+        omitted_contrast='degron_parental',statistics='Same updated WT-reference statistics as the five-contrast analysis; original BH test families retained.'),indent=2)+'\n')
     print('Created additional primary figure with one Degron comparison.')
     raise SystemExit(0)
 
@@ -99,7 +99,7 @@ cb=fig.colorbar(im,cax=fig.add_axes([.935,pos.y0,.014,pos.height]),ticks=[0,2,4]
 fate_heat(axes[1,0],sens_fate[sens_fate.variant=='all_genes'],'B   All expression-eligible genes')
 im=fate_heat(axes[1,1],sens_fate[sens_fate.variant=='outside_ReMap'],'C   Excluding ReMap targets',False)
 pos=axes[1,1].get_position()
-cb=fig.colorbar(im,cax=fig.add_axes([.935,pos.y0+.04,.014,pos.height-.08]));cb.set_label('Normalized enrichment score (NES)')
+cb=fig.colorbar(im,cax=fig.add_axes([.935,pos.y0+.04,.014,pos.height-.08]));cb.set_label('WT-reference NES')
 save(fig,ROOT/'sensitivity/remap/figures/figure_s1_remap_sensitivity')
 
 caption_title='48-hour EOMES ChIP targets and cell-fate programs after EOMES perturbation.'
@@ -107,8 +107,10 @@ caption_text=(
     '(A) Enrichment of upregulated and downregulated DE genes among the fixed top 500 (left) and top 1,500 (right) '
     '48-hour ChIP targets. Values are observed/expected overlaps; * one-sided Fisher BH q < 0.05 across 20 tests. '
     '(B, C) Unweighted GSEA of cell-type signatures using all expression-eligible genes (B) or excluding the '
-    '48-hour top 1,500 targets (C). Values are normalized enrichment scores (NES); red indicates higher and blue '
-    'lower expression after perturbation. * BH q < 0.05 across all tested signatures and five contrasts, separately '
+    '48-hour top 1,500 targets (C). Values are NES calibrated against 1,566 source-adjusted WT-versus-WT 3v3 '
+    'assignments from nine selected EOMES control libraries. The expression filter is q75_pass and maximum '
+    'KO/control mean CPM ≥ 1; each comparison\'s gene list is fixed across WT assignments. Red indicates higher and blue '
+    'lower expression after perturbation. * WT-reference BH q < 0.05 across all tested signatures and five contrasts, separately '
     'per panel. References: Tyser et al. (2021), human gastrula; Cao et al. (2020), human fetal atlas. DE2 denotes '
     'anterior-enriched definitive endoderm. Whole-gene and knock-in KO share WT samples; both degron comparisons '
     'share perturbed samples, with matched uninduced or auxin-treated parental controls. Reference similarity '

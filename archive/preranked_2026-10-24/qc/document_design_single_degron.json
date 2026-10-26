@@ -1,0 +1,38 @@
+{
+  "preset": "standard_business_brief",
+  "named_overrides": {
+    "scientific_figure_page": {
+      "size": "US Letter landscape",
+      "width_in": 11,
+      "height_in": 8.5,
+      "margins_in": 0.5,
+      "header_footer_in": 0.3
+    },
+    "scientific_caption": {
+      "font": "Calibri",
+      "size_pt": 9.5,
+      "before_pt": 8,
+      "after_pt": 0,
+      "line_spacing": 1.1
+    },
+    "scientific_figure": {
+      "width_in": 7.9,
+      "alignment": "center",
+      "paragraph_font_pt": 1,
+      "spacing_pt": 0
+    },
+    "methods_pages": {
+      "size": "US Letter portrait",
+      "margins_lr_in": 0.75,
+      "margins_tb_in": 0.7,
+      "font": "Calibri",
+      "body_pt": 10.5,
+      "line_spacing": 1.08,
+      "paragraph_after_pt": 6,
+      "heading_pt": 12,
+      "title_pt": 16,
+      "code_font": "Consolas",
+      "code_pt": 9
+    }
+  }
+}

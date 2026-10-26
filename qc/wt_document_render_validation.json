@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "path": "results/documents/EOMES_supp_updated.docx",
+      "pages": 4
+    },
+    {
+      "path": "results/documents/figure_1_with_caption.docx",
+      "pages": 1
+    }
+  ],
+  "all_pages_visually_inspected": true,
+  "heading_and_caption_pagination_fixed": true,
+  "no_clipping_or_overlap": true
+}

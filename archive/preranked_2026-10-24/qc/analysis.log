@@ -1,0 +1,14 @@
+/Users/wsun/research/MorPhiC/exchange_experiment/EOMES/release_version_2026_10_24/scripts/analyze.py:5: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+       contrast                    method  input_gene_IDs  eligible_symbols  DE_symbols  up_DE  down_DE  mixed_direction_symbols  eligible_top500  eligible_top1500  DE_top500  DE_top1500  DE_outside_top1500
+  whole_gene_ko             Whole-gene KO           23100             15165        4675   2662     2014                        1              227               679        130         364                4311
+    knock_in_ko               Knock-in KO           23100             15009        4080   2238     1842                        0              232               679        132         354                3726
+ degron_matched  Degron (matched control)           23100             14827        2683   1434     1249                        0              220               650         87         225                2458
+degron_parental Degron (parental control)           23100             15047        5049   2527     2524                        2              230               690        140         407                4642
+        crispri                   CRISPRi           23100             14524        1721    757      964                        0              224               666         50         144                1577

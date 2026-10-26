@@ -15,6 +15,7 @@ def main():
     stages=[('validation',[sys.executable,str(root/'scripts/validate_release.py')])]
     if not args.validate_only:
         stages=[('analysis',[sys.executable,str(root/'scripts/analyze.py')]),
+                ('wt_reference',[args.rscript,str(root/'scripts/wt_reference.R')]),
                 ('cell_fate',[args.rscript,str(root/'scripts/cell_fate.R')]),
                 ('figures',[sys.executable,str(root/'scripts/render_results.py')]),
                 ('figure_single_degron',[sys.executable,str(root/'scripts/render_results.py'),'--single-degron'])]

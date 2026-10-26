@@ -3,3 +3,6 @@ fgsea
 data.table
 jsonlite
 BiocParallel
+edgeR
+limma
+Rcpp

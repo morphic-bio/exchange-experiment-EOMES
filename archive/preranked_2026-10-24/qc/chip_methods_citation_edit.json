@@ -1,0 +1,39 @@
+{
+  "source": "release_version_2026_10_24/results/documents/EOMES_supp.docx",
+  "output": "release_version_2026_10_24/results/documents/EOMES_supp_updated.docx",
+  "source_sha256": "01e1fc4fa3cf1501c8a735b60084be8523aaa0d0748caa28996f514164b85f06",
+  "output_sha256": "910d82dd623033a1f09c227a98060ddbdf2ae72e742ee561dfb00b5be2982cd8",
+  "changes": [
+    {
+      "paragraph": 7,
+      "before": "Bowtie2 2.5.5 (default alignment settings)",
+      "after": "Bowtie2 2.5.5 [Langmead and Salzberg 2012] (default alignment settings)"
+    },
+    {
+      "paragraph": 7,
+      "before": "SAMtools 1.24 name-sorted",
+      "after": "SAMtools 1.24 [Danecek et al. 2021] name-sorted"
+    },
+    {
+      "paragraph": 8,
+      "before": "MACS2 2.2.9.1 called peaks",
+      "after": "MACS2 2.2.9.1 [Zhang et al. 2008] called peaks"
+    },
+    {
+      "paragraph": 8,
+      "before": "Thus, paired-end ChIP was treated as read-1 tags with fixed 200-bp extension, not BAMPE fragments.",
+      "after": "ChIP reads were aligned as paired-end data. For peak calling, MACS2 used the first mate of each pair and an assumed fragment length of 200 bp, rather than fragment lengths inferred from both mates."
+    },
+    {
+      "paragraph": 8,
+      "before": "After blacklist exclusion, IDR 2.0.4.2 compared biological replicates",
+      "after": "After blacklist exclusion, the irreproducible discovery rate (IDR) method [Li et al. 2011], implemented in IDR 2.0.4.2, compared biological replicates"
+    }
+  ],
+  "reference_count": 8,
+  "all_other_paragraphs_and_existing_references_preserved": true,
+  "images_styles_and_section_layout_preserved": true,
+  "rendered_pages": 4,
+  "all_pages_visually_checked": true,
+  "no_clipping_or_overlap": true
+}

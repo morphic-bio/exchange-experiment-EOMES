@@ -1,5 +1,5 @@
 {
-  "release": "2026-10-24",
+  "release": "2026-10-25 WT reference update",
   "contrasts": [
     {
       "id": "whole_gene_ko",
@@ -49,7 +49,7 @@
     "sensitivity_BH_family": 10
   },
   "cell_fate": {
-    "method": "unweighted preranked GSEA",
+    "method": "unweighted GSEA calibrated against empirical WT-versus-WT scores",
     "ranking": "logFC",
     "min_size": 10,
     "max_size": 1000,
@@ -57,7 +57,16 @@
     "eps": 1e-07,
     "nPermSimple": 1000,
     "gseaParam": 0,
-    "BH_family": "all eligible signatures and five contrasts, separately for each variant"
+    "BH_family": "all eligible signatures and five contrasts, separately for each variant",
+    "primary_reference": "WT",
+    "WT_assignments": 1566,
+    "WT_samples": 9,
+    "WT_model": "source_group + pseudo_condition; 3 vs 3",
+    "WT_pvalue": "(1 + same-sign tail exceedances) / (1 + same-sign WT scores)",
+    "WT_NES": "observed ES / mean absolute same-sign WT ES",
+    "expression_mask": "fixed observed-comparison eligible genes, reused for all WT assignments",
+    "representative_matching": "preserve this release ranking and match to WT fits by Ensembl gene ID",
+    "preranked_reference": "retained as diagnostic columns and archived original results"
   },
   "cell_fate_display": [
     "TYSER_Endo",
@@ -80,5 +89,5 @@
   "reference_signature_count": 96,
   "reference_Tyser_top_n": 50,
   "remap_reference_size": 1446,
-  "scope": "Frozen selected 48h processed ChIP inputs and original DE calls; no input-control selection, alignment, peak-calling rerun, DE refit, 24h analysis, motif analysis, expression-filter exploration, ROC or target GSEA."
+  "scope": "Frozen 48h ChIP, original observed DE calls and cell-type library; empirical EOMES WT reference reconstructed from nine selected WT libraries and 1566 assignments; no observed DE refit."
 }

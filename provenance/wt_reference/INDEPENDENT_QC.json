@@ -1,0 +1,158 @@
+{
+  "completed": true,
+  "tests": 97501,
+  "contrasts": 20,
+  "comparison_specific_masks_verified": true,
+  "all_pathway_memberships_sizes_and_GO_canonical_mappings_verified": true,
+  "all_WT_sample_assignments_verified": true,
+  "full_observed_scores_checked_against_fgsea": true,
+  "native_lmFit_and_fgsea_reference_checks": {
+    "completed": true,
+    "n_checks": 560,
+    "max_absolute_ES_error": 9.0206e-17,
+    "both_label_orientations_checked": true,
+    "method": "native limma::lmFit followed by fgsea::calcGseaStat"
+  },
+  "independent_focused_null_calibration_verified": true,
+  "all_empirical_p_and_BH_q_verified": true,
+  "max_BH_q_error": 1.9206858326015208e-14,
+  "computational_inputs_unchanged": true,
+  "original_results_unchanged": true,
+  "counts": [
+    {
+      "target": "EOMES",
+      "contrast": "JAX",
+      "ranked_genes": 15165,
+      "tested_sets": 4952
+    },
+    {
+      "target": "EOMES",
+      "contrast": "MSK",
+      "ranked_genes": 15009,
+      "tested_sets": 4952
+    },
+    {
+      "target": "EOMES",
+      "contrast": "UCSF",
+      "ranked_genes": 14523,
+      "tested_sets": 4828
+    },
+    {
+      "target": "EOMES",
+      "contrast": "NW",
+      "ranked_genes": 14827,
+      "tested_sets": 4948
+    },
+    {
+      "target": "EOMES",
+      "contrast": "NW_parent",
+      "ranked_genes": 15047,
+      "tested_sets": 4971
+    },
+    {
+      "target": "GCM1",
+      "contrast": "JAX",
+      "ranked_genes": 13568,
+      "tested_sets": 4757
+    },
+    {
+      "target": "GCM1",
+      "contrast": "MSK",
+      "ranked_genes": 13502,
+      "tested_sets": 4746
+    },
+    {
+      "target": "GCM1",
+      "contrast": "UCSF",
+      "ranked_genes": 13556,
+      "tested_sets": 4773
+    },
+    {
+      "target": "GCM1",
+      "contrast": "NW",
+      "ranked_genes": 13140,
+      "tested_sets": 4699
+    },
+    {
+      "target": "GCM1",
+      "contrast": "NW_parent",
+      "ranked_genes": 13204,
+      "tested_sets": 4697
+    },
+    {
+      "target": "ISL1",
+      "contrast": "JAX",
+      "ranked_genes": 14692,
+      "tested_sets": 4873
+    },
+    {
+      "target": "ISL1",
+      "contrast": "MSK",
+      "ranked_genes": 14627,
+      "tested_sets": 4865
+    },
+    {
+      "target": "ISL1",
+      "contrast": "UCSF",
+      "ranked_genes": 14284,
+      "tested_sets": 4850
+    },
+    {
+      "target": "ISL1",
+      "contrast": "NW",
+      "ranked_genes": 14793,
+      "tested_sets": 4879
+    },
+    {
+      "target": "ISL1",
+      "contrast": "NW_parent",
+      "ranked_genes": 14598,
+      "tested_sets": 4873
+    },
+    {
+      "target": "NKX2-1",
+      "contrast": "JAX",
+      "ranked_genes": 16005,
+      "tested_sets": 4974
+    },
+    {
+      "target": "NKX2-1",
+      "contrast": "MSK",
+      "ranked_genes": 16308,
+      "tested_sets": 5009
+    },
+    {
+      "target": "NKX2-1",
+      "contrast": "UCSF",
+      "ranked_genes": 15746,
+      "tested_sets": 4929
+    },
+    {
+      "target": "NKX2-1",
+      "contrast": "NW",
+      "ranked_genes": 15859,
+      "tested_sets": 4954
+    },
+    {
+      "target": "NKX2-1",
+      "contrast": "NW_parent",
+      "ranked_genes": 16019,
+      "tested_sets": 4972
+    }
+  ],
+  "software_sha256": {
+    "audit.py": "347a310f96b840f575dee14616bad495750cdb7fd0e17448fc3f7d856fafa3f2",
+    "common.R": "91d1fe1b40b0e949de3c0ce6876873ab8a04a80ee372ba2f9ec0ada1278cfd56",
+    "consolidation_audit.py": "0a21aae7849a79fae963823c1e925f7657cc0cb3dedd7c615f5958ec7c32eb4d",
+    "finalize.R": "29fa3b2b9bc7ddc8d1b9b23087c50439eebc65783a765e42157a1a90547a1f8a",
+    "launch.py": "3b534b43c7acea67a62bd71775ebc669e552b25be5a77cacd26e313468fc119d",
+    "manifest.py": "9159d1a94b6299e99202124b3b71e05cef1247d26187e2932bb50354e5c2168e",
+    "prepare.R": "8c878e92780b651ff67a9c026335e410e73c72cdb760a4defc88c533a1210c70",
+    "prerank.R": "291aa54f451ccac5a6fe58174111eaa2d62aa4a0aef80da2b52e2d3f90fe8938",
+    "report.py": "c0acdb135d6f2fe8dea3180641705fd04f89a3471e4d33b2fe3025e5308e179f",
+    "run.R": "bf8193154d6e328e7731c270bc5bef1ca80e248d1bf7e58f6301f779a25664e1",
+    "supplementary_report.py": "485690d4df14ea110ec4e510d6727fc286ada8f1f1d4c79840d580750eb71b9e",
+    "validate_reference.R": "7ee964900434bdab714636f43e8336555bad37975b4c28d1bc2ea3f230a3e38c"
+  },
+  "full_results_sha256": "716c6a740ac90a4ee33f02a9f5e83280e94c827ad46718a05d3d8354e5da5a24"
+}

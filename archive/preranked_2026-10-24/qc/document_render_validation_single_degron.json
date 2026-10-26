@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "pages": 3,
+  "all_pages_visually_inspected": true,
+  "no_clipping_or_overlap": true,
+  "original_results_unchanged": true,
+  "retained_degron": "degron_matched",
+  "figure_labels_verified": true,
+  "docx_sha256": "3e1c582d9e7a34bed76571d2c9135220e96d0a7e628bd2d582adb48ace1a594f",
+  "renderer": "documents render_docx.py / LibreOffice",
+  "figure_width_inches": 12.5,
+  "heatmap_value_font_pt": 10,
+  "word_image_width_inches": 7.9,
+  "methods_pages": 2,
+  "source_accession_and_reference_hyperlinks": 9,
+  "methods_source_check": "ChIP BAM program headers, processing scripts, release analysis scripts, original DE notebook, and linked publications"
+}

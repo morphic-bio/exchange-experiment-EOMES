@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "pages": 1,
+  "renderer": "documents skill render_docx.py / LibreOffice",
+  "checked_at": "2026-10-25T01:51:13.222751+00:00",
+  "docx_sha256": "1dcc43ebe747a489211e70357ea5c369c0275507b6d792efc262e7ee3757b3b3",
+  "visual_review": {
+    "all_pages_inspected": true,
+    "no_clipping_or_overlap": true,
+    "figure_and_caption_on_one_page": true,
+    "DE2_label_wrapped_before_definitive": true,
+    "method_only_figure_labels": true,
+    "no_global_figure_title_or_footnote": true
+  },
+  "preset_audit": "Landscape scientific-figure and caption overrides recorded in document_design.json; image and caption styles explicitly applied; no tables or lists."
+}

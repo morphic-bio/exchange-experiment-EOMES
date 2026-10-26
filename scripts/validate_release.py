@@ -9,6 +9,8 @@ from common import ROOT, CONFIG, CONTRASTS, verify_inputs, sha256
 
 def main():
     n=verify_inputs()
+    from validate_wt_gsea import validate
+    wt_validation=validate()
     scores=pd.read_csv(ROOT/'inputs/chip48/all_gene_scores.tsv.gz',sep='\t').set_index('gene_id')
     links=pd.read_csv(ROOT/'inputs/chip48/peak_gene_evidence.tsv.gz',sep='\t')
     peaks=pd.read_csv(ROOT/'inputs/chip48/final.narrowPeak.gz',sep='\t',header=None)
@@ -56,6 +58,7 @@ def main():
         cell_fate_tests_by_variant=gsea.groupby('variant').size().to_dict(),
         excluded_gene_counts_match_top1500=True,primary_contains_no_ReMap_variant=True,
         sensitivity_all_gene_panel_matches_primary=True,python=platform.python_version(),matplotlib=matplotlib.__version__)
+    check['WT_reference_validation']=wt_validation['status']
     (ROOT/'qc/release_validation.json').write_text(json.dumps(check,indent=2)+'\n')
     files=[p for directory in ['inputs','scripts','provenance','results','sensitivity']
            for p in (ROOT/directory).rglob('*') if p.is_file() and '__pycache__' not in p.parts]

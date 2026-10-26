@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "tests": 1314,
+  "null_scores_checked": 2057724,
+  "observed_rankings_and_ES_unchanged": true,
+  "original_preranked_results_reproduced": true,
+  "empirical_tails_NES_and_BH_independently_recomputed": true,
+  "comparisons": [
+    {
+      "contrast": "crispri",
+      "variant": "all_genes",
+      "ranked_genes": 14524,
+      "signatures": 87,
+      "max_observed_ES_error": 2.091660178393795e-13
+    },
+    {
+      "contrast": "crispri",
+      "variant": "outside_ChIP48_top1500",
+      "ranked_genes": 13858,
+      "signatures": 85,
+      "max_observed_ES_error": 6.350475700855895e-14
+    },
+    {
+      "contrast": "crispri",
+      "variant": "outside_ReMap",
+      "ranked_genes": 13828,
+      "signatures": 86,
+      "max_observed_ES_error": 7.072120666862247e-14
+    },
+    {
+      "contrast": "degron_matched",
+      "variant": "all_genes",
+      "ranked_genes": 14827,
+      "signatures": 88,
+      "max_observed_ES_error": 1.532107773982716e-13
+    },
+    {
+      "contrast": "degron_matched",
+      "variant": "outside_ChIP48_top1500",
+      "ranked_genes": 14177,
+      "signatures": 87,
+      "max_observed_ES_error": 1.0441647546599597e-13
+    },
+    {
+      "contrast": "degron_matched",
+      "variant": "outside_ReMap",
+      "ranked_genes": 14119,
+      "signatures": 87,
+      "max_observed_ES_error": 1.318944953254686e-13
+    },
+    {
+      "contrast": "degron_parental",
+      "variant": "all_genes",
+      "ranked_genes": 15047,
+      "signatures": 88,
+      "max_observed_ES_error": 9.9253938401489e-14
+    },
+    {
+      "contrast": "degron_parental",
+      "variant": "outside_ChIP48_top1500",
+      "ranked_genes": 14357,
+      "signatures": 87,
+      "max_observed_ES_error": 7.205347429817266e-14
+    },
+    {
+      "contrast": "degron_parental",
+      "variant": "outside_ReMap",
+      "ranked_genes": 14314,
+      "signatures": 88,
+      "max_observed_ES_error": 1.1457501614131615e-13
+    },
+    {
+      "contrast": "knock_in_ko",
+      "variant": "all_genes",
+      "ranked_genes": 15009,
+      "signatures": 89,
+      "max_observed_ES_error": 1.0708101072509635e-13
+    },
+    {
+      "contrast": "knock_in_ko",
+      "variant": "outside_ChIP48_top1500",
+      "ranked_genes": 14330,
+      "signatures": 89,
+      "max_observed_ES_error": 8.398837181289309e-14
+    },
+    {
+      "contrast": "knock_in_ko",
+      "variant": "outside_ReMap",
+      "ranked_genes": 14270,
+      "signatures": 88,
+      "max_observed_ES_error": 8.471001677889944e-14
+    },
+    {
+      "contrast": "whole_gene_ko",
+      "variant": "all_genes",
+      "ranked_genes": 15165,
+      "signatures": 89,
+      "max_observed_ES_error": 1.325606291402437e-13
+    },
+    {
+      "contrast": "whole_gene_ko",
+      "variant": "outside_ChIP48_top1500",
+      "ranked_genes": 14486,
+      "signatures": 88,
+      "max_observed_ES_error": 6.283862319378386e-14
+    },
+    {
+      "contrast": "whole_gene_ko",
+      "variant": "outside_ReMap",
+      "ranked_genes": 14422,
+      "signatures": 88,
+      "max_observed_ES_error": 1.3733458814613186e-13
+    }
+  ]
+}

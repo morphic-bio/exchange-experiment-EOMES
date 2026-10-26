@@ -1,0 +1,26 @@
+[
+  {
+    "source": "archive/preranked_2026-10-24/results/documents/EOMES_supp_updated.docx",
+    "source_sha256": "2ee656c0d0dfe8976bfdd03888bc49f93e7281750465043d0c3da6e14bad7d71",
+    "output": "results/documents/EOMES_supp_updated.docx",
+    "output_sha256": "905d0da6fb0196c6dd2dff5e7b1fe147c9b4b359bc2b96d9717717053ffdbf94",
+    "changed_original_paragraphs": [
+      1,
+      13,
+      15,
+      16
+    ],
+    "references_and_other_paragraphs_preserved": true
+  },
+  {
+    "source": "archive/preranked_2026-10-24/results/documents/figure_1_with_caption.docx",
+    "source_sha256": "1dcc43ebe747a489211e70357ea5c369c0275507b6d792efc262e7ee3757b3b3",
+    "output": "results/documents/figure_1_with_caption.docx",
+    "output_sha256": "7f0880c748423b0841e8823f31b613525faaf32c40edf571702a57265126622b",
+    "changed_original_paragraphs": [
+      0,
+      1
+    ],
+    "references_and_other_paragraphs_preserved": true
+  }
+]

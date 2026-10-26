@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "frozen_inputs_verified": 14,
+  "frozen_inputs_verified": 36,
   "target_ranking_matches_frozen_source": true,
   "Fisher_matches_hypergeometric": true,
   "original_DE_calls_preserved": true,

@@ -1,0 +1,36 @@
+Cell-fate GSEA: Whole-gene KO 
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Cell-fate GSEA: Knock-in KO 
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Cell-fate GSEA: Degron (matched control) 
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Cell-fate GSEA: Degron (parental control) 
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Cell-fate GSEA: CRISPRi 
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Warning in fgseaMultilevel(sets, stats, minSize = config$cell_fate$min_size,  :
+  For some pathways, in reality P-values are less than 1e-07. You can set the `eps` argument to zero for better estimation.
+Cell-fate GSEA complete.

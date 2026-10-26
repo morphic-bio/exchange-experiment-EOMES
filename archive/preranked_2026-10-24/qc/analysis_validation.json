@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "frozen_inputs_verified": 14,
+  "target_ranking_matches_frozen_source": true,
+  "Fisher_matches_hypergeometric": true,
+  "original_DE_calls_preserved": true,
+  "python": "3.9.6",
+  "numpy": "1.26.3",
+  "pandas": "2.2.0",
+  "scipy": "1.12.0"
+}
